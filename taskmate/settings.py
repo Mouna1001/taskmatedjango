@@ -50,7 +50,7 @@ ROOT_URLCONF = 'taskmate.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [(os.path.join(BASE_DIR,'/taskmate/Templates')),],
+        'DIRS': [(os.path.join(BASE_DIR, '/taskmate/todolist_app/Templates')),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
